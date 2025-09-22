@@ -1,21 +1,37 @@
-# Java Console Calculator  
+Calculator_Task1
+Overview..!
 
-## 📌 Objective  
-This project is a simple **Java Console Calculator** created as part of a Java Developer Internship task.  
-It demonstrates **basic Java programming concepts** such as methods, loops, conditionals, and console input/output.  
+Calculator_Task1 is a simple Java console-based calculator program.
+It allows the user to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The program provides a menu-driven interface for continuous calculations until the user decides to exit.
 
----
+Note: This calculator does not follow BODMAS/PEMDAS rules. Operations are performed in the order they are entered.
 
-## 🛠 Tools & Technologies  
-- Java (JDK 8 or above)  
-- VS Code / IntelliJ IDEA CE / Eclipse  
-- Command Prompt / Terminal  
+Features..!
 
----
+Addition – Add two numbers.
 
-## 🚀 Features  
-- Perform **Addition, Subtraction, Multiplication, Division**  
-- Accept user input via **Scanner**  
-- Uses **methods** for clean structure  
-- Program runs in a **loop** until the user exits  
-- Handles **divide-by-zero** safely  
+Subtraction – Subtract the second number from the first.
+
+Multiplication – Multiply two numbers.
+
+Division – Divide the first number by the second (handles division by zero).
+
+Result – Display the current result.
+
+Exit – Close the calculator.
+
+How It Works..!
+
+The program prompts the user to enter a number.
+
+Displays the menu with available operations.
+
+User selects an option from the menu:
+
+For addition, subtraction, multiplication, and division, the program asks for another number and performs the operation.
+
+The result is stored and can be used for the next calculation.
+
+User can view the current result by selecting the Result option and also stop execution.
+
+The program repeats until the user chooses Exit.
